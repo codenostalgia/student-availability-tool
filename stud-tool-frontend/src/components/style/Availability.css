@@ -1,0 +1,54 @@
+.mytable {
+  border-radius: 8px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table th {
+  background-color: #f8f9fa; /* Light gray background for headers */
+  text-align: center;
+}
+
+.table td {
+  vertical-align: middle; /* Center align the table cells vertically */
+}
+
+.card {
+  border: 1px solid #ddd; /* Light border around cards */
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.del-btn {
+  width: 100%; /* Full width buttons */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Bootstrap danger color */
+  border: none; /* Remove border */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker on hover */
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important; /* Space between cards */
+}

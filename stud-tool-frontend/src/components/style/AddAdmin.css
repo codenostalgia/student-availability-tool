@@ -1,0 +1,42 @@
+.admin-form {
+  background-color: white; /* Background color for the form */
+  padding: 20px; /* Padding inside the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+h2 {
+  color: #333; /* Dark text for the title */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form fields */
+}
+
+.form-label {
+  font-weight: bold; /* Bold label text */
+}
+
+.form-control {
+  padding: 10px; /* Padding inside the input fields */
+  width: 100%; /* Full width input fields */
+  box-sizing: border-box; /* Include padding in the element's total width */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Bootstrap primary color */
+  border: none; /* Remove default border */
+  transition: background-color 0.3s; /* Smooth transition effect */
+  padding: 10px; /* Padding for the button */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .admin-form {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+}

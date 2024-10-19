@@ -1,0 +1,28 @@
+/* Custom CSS for VerifyOTP component */
+
+.otp-container {
+  max-width: 400px; /* Set a maximum width for the container */
+  width: 100%;
+}
+
+.otp-input {
+  width: 50px; /* Set a fixed width for OTP input fields */
+  text-align: center;
+  margin: 0 5px; /* Horizontal margin for spacing */
+}
+
+.message {
+  font-size: 14px;
+  color: red; /* Default color for error messages */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .otp-input {
+    width: 40px; /* Slightly smaller width for mobile devices */
+  }
+
+  .otp-container {
+    padding: 20px; /* Less padding for smaller screens */
+  }
+}

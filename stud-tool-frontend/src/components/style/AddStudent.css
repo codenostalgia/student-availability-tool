@@ -1,0 +1,45 @@
+.card {
+  transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.edit {
+  width: 100%;
+}
+
+.delete {
+  width: 80%;
+}
+
+.student-table {
+    padding: 2%;
+  border-radius: 8px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+
+.edit-small{
+  display: flex;
+  justify-content: flex-start;
+  border: 5px solid black;
+}
+
+.signup-form {
+  border: 1px solid #ced4da; /* Light border around the form */
+  padding: 2rem; /* Padding inside the form */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #ffffff; /* White background for the form */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.signup-form h2 {
+  color: #343a40; /* Dark color for the header */
+}
+
+.form-group label {
+  font-weight: bold; /* Bold labels for better readability */
+}

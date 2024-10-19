@@ -1,0 +1,140 @@
+.login-div-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  /* overflow-y: hidden; */
+
+  /* border: 2px solid red; */
+}
+
+.login-container {
+  border: 1px solid #ced4da;
+  background-color: white;
+  padding: 20px;
+
+  border-radius: 8px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+
+  width: 80%;
+  max-width: 400px;
+
+  /* overflow-y: hidden; */
+}
+
+.login-form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-title {
+  text-align: center;
+  font-weight: 500;
+
+  margin-bottom: 2%;
+  font-size: 2rem;
+
+  border: 1px solid gray;
+}
+
+.login-form-group {
+  margin-bottom: 3%;
+}
+
+.forgot {
+  text-align: right;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1rem; /* Base size */
+}
+
+input {
+  padding: 3.2%;
+  /* padding: 10px; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  /* font-size: 1rem; */
+}
+
+button.login-submit {
+  padding: 3.5%;
+  background-color: #007bff !important;
+  color: white;
+  border: none;
+  border-radius: 4px !important;
+  cursor: pointer;
+}
+
+.back {
+  margin-top: 5%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: #0056b3 !important;
+}
+
+.login-forgot-password {
+  text-align: right;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-signup {
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a.login-signup:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  /* body{
+    overflow-y: hidden;
+  } */
+
+  .login-container {
+    padding: 4%;
+    overflow-y: hidden;
+  }
+
+  .login-title {
+    font-size: 1.5rem;
+  }
+
+  label {
+    font-size: 0.9rem;
+  }
+
+  input,
+  button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  h2 {
+    font-size: 1.75rem; /* Medium screens */
+  }
+
+  label {
+    font-size: 1rem; /* Medium screens */
+  }
+
+  input,
+  button {
+    font-size: 1rem; /* Medium screens */
+  }
+}

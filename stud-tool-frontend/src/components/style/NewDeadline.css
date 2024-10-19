@@ -1,0 +1,29 @@
+.signup-form {
+  background-color: white; /* White background for the form */
+  padding: 20px; /* Consistent padding */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+h2 {
+  color: #333; /* Dark text color */
+}
+
+.form-control {
+  padding: 10px; /* Padding for the input field */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Bootstrap primary color */
+  border: none; /* Remove default border */
+  transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.my-btn {
+  width: 100%; /* Full width for buttons */
+  padding: 0.5rem; /* Padding for buttons */
+}

@@ -1,0 +1,26 @@
+.signup-form {
+  border: 1px solid #ced4da; /* Light border around the form */
+  padding: 2rem; /* Padding inside the form */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #ffffff; /* White background for the form */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.signup-form h2 {
+  color: #343a40; /* Dark color for the header */
+}
+
+.form-group label {
+  font-weight: bold; /* Bold labels for better readability */
+}
+
+/* Make input fields full-width */
+.form-control {
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+.my-btn {
+  width: 100%; /* Full width for buttons */
+  padding: 0.5rem; /* Padding for buttons */
+}

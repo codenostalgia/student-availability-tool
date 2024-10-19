@@ -1,0 +1,7 @@
+@media screen and (min-width: 990px) {
+  .log-out {
+    position: absolute !important;
+    right: 5%;
+    top:1%;
+  }
+}
