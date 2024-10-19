@@ -9,12 +9,13 @@ The need of clients were as follows-
 
 Key Features:
 - Student Login: Each student will have a unique login to access the system and update their availability on a weekly basis.
+- Secure Login System: Implement a secure login system to ensure only authorized students can access and update their availability.
 - Editable Availability Submission Form: Students will be able to edit and submit their weekly availability through a user-friendly form.
 - Automated Report Generation: Every week, an Excel sheet containing all students' availability will be automatically generated and emailed to the admin team.
 - Admin Override & Manual Edits: Admins can log in and manually adjust the final output sheet to accommodate last-minute changes.
 - Mobile-Friendly: The platform should be accessible via both desktop and mobile devices to encourage higher student participation.
-- Secure Login System: Implement a secure login system to ensure only authorized students can access and update their availability.
 - Export Options: The final availability sheet can be exported in multiple formats (Excel, CSV, etc.).
+- DeadLine Auto-Update: Every Monday morning, deadline will be auto-updated to Wednesday midnight of same week
 
 Additional Requirements:
 - User Management: Admins should be able to add, edit, or remove students as needed.
